@@ -1,0 +1,142 @@
+/* General Page Setup */
+body {
+    font-family: 'Young Serif', serif;
+    background: hsl(30, 54%, 90%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Main Wrapper */
+.container {
+    width: 100%;
+    max-width: 650px;          /* Desktop expands more */
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Image */
+.hero-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #7b3f22;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #7b3f22;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.description {
+    line-height: 1.6;
+}
+
+/* Preparation Time Box */
+.prep-box {
+    background: #fff7fb;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.prep-box ul {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+/* Ingredients List */
+.ingredients-list {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+/* Instructions */
+.instruction-list {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+/* Nutrition Section */
+.nutrition-info {
+    margin-bottom: 15px;
+}
+
+.nutrition-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nutrition-row .value {
+    color: #7b3f22;
+    font-weight: bold;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 25px 0;
+}
+
+/* -------------------------- */
+/* RESPONSIVE BREAKPOINTS     */
+/* -------------------------- */
+
+/* Tablets (screens 600px and up) */
+@media (min-width: 600px) {
+    body {
+        padding: 40px;
+        background: hsl(30, 54%, 90%);
+    }
+
+    .container {
+        padding: 30px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+}
+
+/* Desktop (900px and up) */
+@media (min-width: 900px) {
+    body {
+        background: hsl(30, 54%, 90%);
+    }
+
+    .container {
+        max-width: 900px;        /* Wider on large screens */
+        padding: 40px;
+    }
+
+    .hero-img {
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    p,
+    li,
+    .nutrition-row {
+        font-size: 18px;
+    }
+}
