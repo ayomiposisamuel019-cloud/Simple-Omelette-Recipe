@@ -1,0 +1,109 @@
+/* General Page Setup */
+body {
+    font-family: 'Young Serif', serif;
+    background: hsl(30, 54%, 90%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 450px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Image */
+.hero-img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h1 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #7b3f22;
+    margin-top: 25px;
+}
+
+h3 {
+    color: #7b3f22;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.description {
+    line-height: 1.6;
+}
+
+/* Preparation Time Box */
+.prep-box {
+    background: #fff7fb;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.prep-box ul {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+.prep-box li {
+    color: hsl(30, 10%, 34%);
+}
+
+.prep-box li::marker {
+    color:hsl(332, 51%, 32%);
+}
+
+/* Ingredients List */
+.ingredients-list {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+.ingredients-list li::marker {
+    color:hsl(14, 45%, 36%);
+}
+
+/* Instruction List */
+.instruction-list {
+    margin-left: 20px;
+    line-height: 1.8;
+}
+
+.instruction-list li::marker {
+    color:hsl(14, 45%, 36%);
+}
+
+/* Nutrition Section */
+.nutrition-info {
+    margin-bottom: 15px;
+}
+
+.nutrition-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.nutrition-row .value {
+    color: #7b3f22;
+    font-weight: bold;
+}
+
+/* Horizontal Line */
+hr {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    margin: 25px 0;
+}
